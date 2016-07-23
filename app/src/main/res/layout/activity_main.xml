@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Dialog4sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog 4 sec" />
+
+    <Button
+        android:id="@+id/DialogButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="確認式對話框" />
+
+
+    <Button
+        android:id="@+id/DialogListadapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTADAPTER 對話框" />
+
+    <Button
+        android:id="@+id/DialogCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自訂對話框" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
